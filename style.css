@@ -25,7 +25,7 @@ body {
     color: var(--primary-color);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.6;
     min-height: 100vh;
 
     display: flex;
@@ -40,7 +40,7 @@ main {
     margin: 8.9rem auto;
 
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -59,10 +59,12 @@ h1 {
     font-size: 4rem;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    /* margin-bottom: 4rem; */
 }
 
 p {
     color: var(--font-color-p);
+    margin-bottom: 1rem;
 }
 
 
@@ -70,12 +72,12 @@ p {
 section.card {
     height: 44rem;    
     width: 32.5rem;
-    padding: 5rem 5rem 8.7rem 4.8rem;
+    padding: 5rem 4.3rem 5rem 4.8rem;
 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card.one {
@@ -86,32 +88,17 @@ section.card {
 .card.one .icon,
 .card.two .icon,
 .card.three .icon {
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-
-.card.one .icon {
-    background-image: url("images/icon-sedans.svg");
+    object-fit: cover;
 }
 
 .card.two {
     background-color: var(--card-two-color);
 }
 
-.card.two .icon {
-    background-image: url("images/icon-suvs.svg");
-}
-
 .card.three {
     background-color: var(--card-three-color);
     border-radius: 0 0 1rem 1rem;
 }
-
-.card.three .icon {
-    background-image: url("images/icon-luxury.svg");
-}
-
 
 .attribution { font-size: 11px; 
     text-align: center; 
@@ -120,3 +107,44 @@ section.card {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+@media only screen and (min-width: 500px){
+
+    section.card {
+        width: calc(32.5rem + 20vw)
+    }
+    
+}
+
+@media only screen and (min-width: 800px){
+
+    section.card {
+        width: calc(22rem + 4vw);
+        height: 50rem;
+    }
+    .card.one {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .card.three {
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+
+    section.card {
+        width: 30rem;
+        height: 50rem;
+        padding-bottom: 4rem;
+    }
+
+    p {
+        margin-bottom: 5rem;
+    }
+    
+}
+
+
+    
