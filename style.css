@@ -34,12 +34,33 @@ body {
 
 main {
     flex: 1;
+    width: 100%;
+    margin: 8.9rem auto;
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+
+/* *-*-*-*-*-*-*-*-*-*-*-*-* Main Styling*-*-*-*-*-*-*-*-*-*-*-*-* */
+section.card {
+    height: 44rem;    
+    width: 32.5rem;
+}
+
+.card.one {
+    background-color: var(--card-one-color);
+}
+
+.card.two {
+    background-color: var(--card-two-color);
+}
+
+.card.three {
+    background-color: var(--card-three-color);
 }
 
 .attribution { font-size: 11px; 
