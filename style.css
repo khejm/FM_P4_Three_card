@@ -22,6 +22,7 @@
 
 body {
     background-color: var(--primary-color);
+    color: var(--primary-color);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
     min-height: 100vh;
@@ -44,15 +45,32 @@ main {
     justify-content: center;
 }
 
+h1 {
+    font-size: 4rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+p {
+    color: var(--font-color-p);
+}
+
 
 /* *-*-*-*-*-*-*-*-*-*-*-*-* Main Styling*-*-*-*-*-*-*-*-*-*-*-*-* */
 section.card {
     height: 44rem;    
     width: 32.5rem;
+    padding: 5rem 5rem 8.7rem 4.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .card.one {
     background-color: var(--card-one-color);
+    border-radius: 1rem 1rem 0 0;
 }
 
 .card.two {
@@ -61,6 +79,7 @@ section.card {
 
 .card.three {
     background-color: var(--card-three-color);
+    border-radius: 0 0 1rem 1rem;
 }
 
 .attribution { font-size: 11px; 
