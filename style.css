@@ -20,6 +20,18 @@
     --primary-color: hsl(0, 0%, 95%);
 }
 
+body {
+    background-color: var(--primary-color);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .attribution { font-size: 11px; 
     text-align: center; 
 }
