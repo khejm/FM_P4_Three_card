@@ -7,6 +7,18 @@
     padding: 0;
 }
 
+/* *-*-*-*-*-*-*-*-*-*-*-*-* Utility Components *-*-*-*-*-*-*-*-*-*-*-*-* */
+
+:root {
+    font-size: 62.5%;
+
+    /**** Custom Properties ****/
+    --card-one-color: hsl(31, 77%, 52%);
+    --card-two-color: hsl(184, 100%, 22%);
+    --card-three-color: hsl(179, 100%, 13%);
+    --font-color-p: hsla(0, 0%, 100%, 0.75);
+    --primary-color: hsl(0, 0%, 95%);
+}
 
 .attribution { font-size: 11px; 
     text-align: center; 
