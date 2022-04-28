@@ -99,6 +99,10 @@ section.card {
     background-color: var(--card-two-color);
 }
 
+.card.two .icon {
+    background-image: url("images/icon-suvs.svg");
+}
+
 .card.three {
     background-color: var(--card-three-color);
     border-radius: 0 0 1rem 1rem;
