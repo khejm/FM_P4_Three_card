@@ -45,6 +45,16 @@ main {
     justify-content: center;
 }
 
+a {
+    background-color: var(--primary-color);
+    border-radius: 3rem;
+    color: black;
+    mix-blend-mode: lighten;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+}
+
+
 h1 {
     font-size: 4rem;
     font-family: 'Big Shoulders Display', cursive;
