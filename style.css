@@ -25,6 +25,7 @@ body {
     color: var(--primary-color);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
+    line-height: 1.5;
     min-height: 100vh;
 
     display: flex;
@@ -54,7 +55,6 @@ a {
     text-decoration: none;
 }
 
-
 h1 {
     font-size: 4rem;
     font-family: 'Big Shoulders Display', cursive;
@@ -81,6 +81,18 @@ section.card {
 .card.one {
     background-color: var(--card-one-color);
     border-radius: 1rem 1rem 0 0;
+}
+
+.card.one .icon,
+.card.two .icon,
+.card.three .icon {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.card.one .icon {
+    background-image: url("images/icon-sedans.svg");
 }
 
 .card.two {
