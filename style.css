@@ -108,6 +108,11 @@ section.card {
     border-radius: 0 0 1rem 1rem;
 }
 
+.card.three .icon {
+    background-image: url("images/icon-luxury.svg");
+}
+
+
 .attribution { font-size: 11px; 
     text-align: center; 
 }
