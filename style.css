@@ -122,13 +122,17 @@ section.card {
         width: calc(32.5rem + 20vw)
     }
     
+    .icon {
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
 }
 
 @media only screen and (min-width: 800px){
 
     section.card {
         height: 49.5rem;
-        padding-bottom: 3.6rem;
+        padding-bottom: 3.7rem;
         padding-top: 3.6rem;
         width: calc(22rem + 4vw);
     }
