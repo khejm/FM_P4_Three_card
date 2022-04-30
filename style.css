@@ -33,7 +33,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.7;
     min-height: 100vh;
 }
 
@@ -48,9 +48,8 @@ section a {
     background-color: var(--primary-color);
     border-radius: 3rem;
     color: black;
-    /* letter-spacing: 0.1rem; */
     mix-blend-mode: lighten;
-    padding: 1.2rem 3rem;
+    padding: 1.1rem 3.2rem;
     text-decoration: none;
 }
 
@@ -58,7 +57,7 @@ section a:hover {
     background-color: transparent;
     border: solid 0.2rem var(--primary-color);
     color: var(--primary-color);
-    padding: 1rem 2.8rem;
+    padding: 0.9rem 2.8rem;
 }
 
 h1 {
@@ -129,7 +128,7 @@ section.card {
 
     section.card {
         height: 49.5rem;
-        padding-bottom: 3.4rem;
+        padding-bottom: 3.5rem;
         padding-top: 3.4rem;
         width: calc(22rem + 4vw);
     }
