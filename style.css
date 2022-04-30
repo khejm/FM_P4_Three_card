@@ -52,6 +52,13 @@ section a {
     text-decoration: none;
 }
 
+section a:hover {
+    background-color: transparent;
+    border: solid 0.2rem var(--primary-color);
+    color: var(--primary-color);
+    padding: 1.3rem 3rem;
+}
+
 h1 {
     font-size: 4rem;
     font-family: 'Big Shoulders Display', cursive;
